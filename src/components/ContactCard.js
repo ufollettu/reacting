@@ -6,6 +6,7 @@ const CardContainer = styled.div`
    border: 1px solid lightgray; 
    margin: 8px 8px 8px 8px;
    height: 580px;
+   width:320px;
 `;
 const CardHeader = styled.div`
     display: flex;

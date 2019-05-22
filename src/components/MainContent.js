@@ -3,10 +3,10 @@ import ContactCard from './ContactCard'
 import jokes from './Jokes';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { wrap } from 'module';
 
 const Wrap = styled.div`
    display: flex; 
+   flex-wrap: wrap;
 `;
 class MainContent extends Component {
     constructor() {
